@@ -1,0 +1,15 @@
+The primary intercropping formula is the __Land Equivalent Ratio (LER)__, which measures land-use efficiency: LER = (Yield of Crop 1 in Intercrop / Sole Crop Yield of Crop 1) + (Yield of Crop 2 in Intercrop / Sole Crop Yield of Crop 2), with an LER > 1 indicating an advantage. Other metrics include the Total Output Index (TOI), comparing total intercrop yield to the best sole crop, and the __Relative Yield Total (RYT)__, assessing resource sharing, with values > 1 suggesting efficiency. 
+Key Intercropping Formulas
+1. Land Equivalent Ratio (LER)
+   * Formula: LER = (Y1i / Y1m) + (Y2i / Y2m)
+   * Y1i/Y2i: Yield of Crop 1/2 in the intercrop
+   * Y1m/Y2m: Yield of Crop 1/2 as a monoculture (sole crop)
+   * Interpretation: LER > 1 means intercropping is more productive than growing crops separately; LER < 1 means competition dominates.
+2. Total Output Index (TOI)
+   * Formula: TOI = (Y1i + Y2i) / max(Y1m, Y2m)
+   * Interpretation: Compares the total yield of the intercrop to the highest yield of a single sole crop, showing land needed for that sole crop output.
+3. Relative Yield Total (RYT)
+   * Formula: RYT = (Y1i / Y1m) + (Y2i / Y2m) (same as LER for two crops)
+   * Interpretation: Assesses resource sharing; RYT > 1 suggests efficient resource use, while < 1 indicates suppression or resource disparity. 
+Other Important Concepts
+* Partial LER (pLER): Calculates the relative yield of each individual crop in the mix, indicating its share of the total output.
